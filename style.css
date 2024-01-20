@@ -67,9 +67,8 @@ footer {
     background-color: #6495ED;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     bottom: 0;
-    width: 100%;
 }
 
 .social-icons {
@@ -81,9 +80,4 @@ footer {
     text-decoration: none;
     margin: 0 10px;
     font-size: 24px;
-    transition: color 0.3s ease;
-}
-
-.social-icons a:hover {
-    color: #ffd700;
 }
