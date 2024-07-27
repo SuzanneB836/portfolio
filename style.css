@@ -151,16 +151,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.ala-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.coinclicker, .gym {
-    flex: 1;
-}
-
 .weblink {
     text-decoration: none;
     background-color: #6495ED; 
@@ -176,6 +166,37 @@ nav a:hover {
 .makecode {
     text-decoration: underline;
     color: #555;
+}
+
+.expand {
+    text-decoration: none;
+    background-color: #6495ED; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.projectimg {
+    display: none;
+}
+
+.projectimg img {
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+.ALA {
+    border: 1px solid #6495ED;
+    margin-top: 20px;
+}
+
+.gym {
+    margin-bottom: 20px;
 }
 
 /* ---------- Footer ---------- */
