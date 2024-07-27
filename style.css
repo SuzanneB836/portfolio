@@ -173,6 +173,11 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
+.makecode {
+    text-decoration: underline;
+    color: #555;
+}
+
 /* ---------- Footer ---------- */
 
 footer {
