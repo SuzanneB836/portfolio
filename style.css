@@ -151,6 +151,16 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.ala-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.coinclicker, .gym {
+    flex: 1;
+}
+
 .weblink {
     text-decoration: none;
     background-color: #6495ED; 
