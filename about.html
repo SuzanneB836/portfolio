@@ -21,12 +21,97 @@
         </div>
     </header>
 
-1. (Simple) timeline from birth to now
-2. an age counter at the final timeline counter
-3. My intrests, hobbies ect.
 
+    <!-- idea: a little game two truths and one lie -->
 
+    <div class="about-me-bg">
+    <div class="about-me-border">
+    <div class="intro">
+        <h1>About Me</h1>
+        <p>Hello! My name is Suzanne Boon, a <span id="age"></span>-year-old student specializing in Software Development at MBO Rijnland in Gouda. I am very passionate about frontend development, where I can let my imagination and creativity run free, transforming ideas into engaging and visually captivating web pages. <br>
+            When I am not coding, I enjoy diving into video games and discovering new music. These interests help me unwind and fuel my creativity. <br> <br>
+            Feel free to reach out to me using the contact information at the bottom of this page!</p>
+        <h4> ⓘ Scroll down for a quiz</h4>
+    </div>
+    <div class="interests">
+        <h2>My interests</h2>
+        <div class="cards-container">
+            <div class="interest-group">
+                <h3>Games</h3>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/stardew_valley.png" alt="Stardew Valley">
+                        <p>Stardew Valley</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/little_kitty_big_city.png" alt="Little Kitty Big City">
+                        <p>Little Kitty, Big City</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/city_skylines.png" alt="City Skylines">
+                        <p>City Skylines</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/the_sims_4.png" alt="City Skylines">
+                        <p>The Sims 4</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/slime_rancher.png" alt="City Skylines">
+                        <p>Slime Rancher</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/minecraft.png" alt="City Skylines">
+                        <p>Minecraft</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="interest-group">
+                <h3>Music</h3>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/breakcore.png" alt="Breakcore">
+                        <p>Breakcore</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/classic_rock.png" alt="Classic Rock">
+                        <p>Classic Rock</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/indie.png" alt="Indie">
+                        <p>Indie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="quiz-container">
+        <h1>Two truths, one lie</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="result"></div>
+        <button id="again" style="display:none;">Again?</button>
 
+    </div>
+    
+    </div> 
+    </div>  
+    
     <footer>
         <p>&copy; 2024 - Suzanne Boon </p>
         <div class="social-icons">
@@ -43,5 +128,7 @@
         </div>
     </footer>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
