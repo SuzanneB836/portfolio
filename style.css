@@ -400,3 +400,99 @@ footer {
     margin: 10px;
     font-size: 24px;
 }
+
+
+@media (max-width: 800px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .namelogo {
+        height: 100px;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .contentIndex {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .welcome {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contentIndex h1 {
+        font-size: 28px;
+    }
+
+    .contentIndex h2 {
+        font-size: 20px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .aButton {
+        padding: 0.5em 1em;
+        font-size: 14px;
+    }
+
+    .aButton h1 {
+        font-size: 20px;
+    }
+
+    .aButton p {
+        font-size: 14px;
+    }
+
+    .bigpic {
+        width: 100%;
+    }
+
+    .projectsdesc {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .projectsdesc h1 {
+        font-size: 24px;
+    }
+
+    .projectsdesc p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 150px;
+        height: 200px;
+    }
+
+    .quiz-container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .quiz-container h1 {
+        font-size: 28px;
+    }
+
+    #question {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
