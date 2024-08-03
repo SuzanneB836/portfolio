@@ -380,6 +380,90 @@ button:hover {
     color: #dc3545;
 }
 
+/* ---------- Skills ---------- */
+
+.skills-section {
+    background-color: #d9f9ff;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), repeating-linear-gradient(#b4abff55, #b4abff);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-border {
+    padding: 40px;
+    background-color: #f0f8ff;
+    border: 2px solid #6495ED;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.skills-header {
+    margin-bottom: 40px;
+}
+
+.skills-header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-category {
+    background-color: #ffffff;
+    border: 2px solid #6495ED;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-category h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #6495ED;
+    padding-bottom: 5px;
+}
+
+.skill-category h3 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-category ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
 /* ---------- Footer ---------- */
 
 footer {
@@ -401,6 +485,7 @@ footer {
     font-size: 24px;
 }
 
+/* ---------- Media Queries ---------- */
 
 @media (max-width: 800px) {
     header {
@@ -494,5 +579,30 @@ footer {
     button {
         font-size: 14px;
         padding: 8px 16px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-category {
+        max-width: 90%;
+    }
+
+    .skills-header h1 {
+        font-size: 28px;
+    }
+
+    .skills-header p {
+        font-size: 16px;
+    }
+
+    .skill-category h2 {
+        font-size: 22px;
+    }
+
+    .skill-category ul li {
+        font-size: 16px;
     }
 }
