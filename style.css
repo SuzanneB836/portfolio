@@ -1,4 +1,4 @@
-/* ---------- Body and header ---------- */
+/* ---------- Base Styles ---------- */
 
 body {
     font-family: 'Arial', sans-serif;
@@ -6,6 +6,13 @@ body {
     padding: 0;
     background-color: #f8f8fa;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---------- Header ---------- */
 
 header {
     background: linear-gradient(to right, #ffffff, #6495ED, #8A2BE2);
@@ -25,13 +32,20 @@ header {
     height: 150px;
 }
 
+nav {
+    display: flex;
+}
+
 nav a {
     color: #fff;
     font-size: 20px;
-    text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f8f8fa;
 }
 
 /* ---------- Index ---------- */
@@ -41,8 +55,8 @@ nav a {
     justify-content: space-around;
     align-items: center;
     padding: 40px;
-    background-color: #d9f9ff;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), repeating-linear-gradient(#b4abff55, #b4abff);
+    background: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), 
+                repeating-linear-gradient(#b4abff55, #b4abff);
 }
 
 .welcome {
@@ -53,12 +67,12 @@ nav a {
 
 .contentIndex h1 {
     font-size: 36px;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 .contentIndex h2 {
     font-size: 24px;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 .buttons {
@@ -72,33 +86,30 @@ nav a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s ease-in;
-    color: #090909;
     padding: 1em 2em;
     cursor: pointer;
     border-radius: 0.5em;
     background: linear-gradient(to right, #6edef5, #6455f0);
     border: 1px solid #e8e8e8;
     box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-    text-decoration: none;
+    transition: all 0.2s ease-in;
     text-align: center;
 }
 
 .aButton h1 {
     font-size: 24px;
     margin: 0;
-    color: inherit;
 }
 
 .aButton p {
     font-size: 16px;
-    margin: 10px 0 0;
+    margin-top: 10px;
     color: #666;
 }
 
 .aButton:hover {
     color: #ffffff;
-    border: 1px solid #000;
+    border-color: #000;
 }
 
 .bigpic {
@@ -117,8 +128,8 @@ nav a {
 /* ---------- Projects ---------- */
 
 .projectsbg {
-    background-color: #d9f9ff;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), repeating-linear-gradient(#b4abff55, #b4abff);
+    background: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), 
+                repeating-linear-gradient(#b4abff55, #b4abff);
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -147,14 +158,12 @@ nav a {
 .projectsdesc p {
     font-size: 18px;
     color: #555;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .weblink, .expand {
-    text-decoration: none;
     background: linear-gradient(to right, #6edef5, #6455f0);
     color: #fff;
-    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -199,8 +208,8 @@ nav a {
 /* ---------- About ---------- */
 
 .about-me-bg {
-    background-color: #d9f9ff;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), repeating-linear-gradient(#b4abff55, #b4abff);
+    background: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), 
+                repeating-linear-gradient(#b4abff55, #b4abff);
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -305,6 +314,11 @@ nav a {
     transition: opacity 0.3s ease;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
 .card2:hover img {
     opacity: 1;
 }
@@ -313,10 +327,7 @@ nav a {
     opacity: 0;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
-}
+/* ---------- Quiz ---------- */
 
 .quiz-container {
     background: linear-gradient(to right, #ffffff, #d9f9ff);
@@ -330,7 +341,7 @@ nav a {
 
 .quiz-container h1 {
     font-size: 36px;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
     color: #333;
 }
 
@@ -379,8 +390,8 @@ button:hover {
 /* ---------- Skills ---------- */
 
 .skills-section {
-    background-color: #d9f9ff;
-    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), repeating-linear-gradient(#b4abff55, #b4abff);
+    background: repeating-radial-gradient(circle at 0 0, transparent 0, #d9f9ff 10px), 
+                repeating-linear-gradient(#b4abff55, #b4abff);
     padding: 60px 20px;
     text-align: center;
 }
@@ -476,7 +487,6 @@ footer {
 
 .social-icons a {
     color: #fff;
-    text-decoration: none;
     margin: 10px;
     font-size: 24px;
 }
@@ -491,6 +501,10 @@ footer {
     .header-content {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .header-content nav {
+        align-self: flex-end;
     }
 
     .namelogo {
