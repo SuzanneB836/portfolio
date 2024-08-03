@@ -34,10 +34,6 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
-    color: #000000;
-}
-
 /* ---------- Index ---------- */
 
 .contentIndex {
@@ -487,7 +483,7 @@ footer {
 
 /* ---------- Media Queries ---------- */
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     header {
         padding: 15px 20px;
     }

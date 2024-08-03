@@ -53,8 +53,8 @@ const questions = [
   },
   {
     question: "Click the lie!",
-    options: ["I am fluent in Dutch and English", "I have never been to a concert", "I used to have a huge variety of animals in my house"],
-    answer: "I have never been to a concert"
+    options: ["I am fluent in Dutch and English", "I have been to disneyland", "I used to have a huge variety of animals in my house"],
+    answer: "I have been to disneyland"
   },
   {
     question: "Click the lie!",
